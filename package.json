@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon --config nodemon.json src/app.ts"
+        "dev": "nodemon --config nodemon.json src/app.ts",
+        "build": "rm -rf dist && tsc -p ."
     },
     "repository": "git@github.com:phihdn/rest-api-tutorial.git",
     "author": "Phi <phihdn@gmail.com>",
